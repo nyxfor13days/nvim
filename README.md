@@ -2,7 +2,7 @@
 
 ![logo](/assets/nvim+lua.webp)
 
-## ToDo
+## ✔️ ToDo
 - [ ] Splash Screen
 - [ ] Language Server
 
