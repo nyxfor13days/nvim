@@ -41,9 +41,9 @@ packer.init {
 
 -- Install your plugins here
 return packer.startup(function(use)
-    use "wbthomason/packer.nvim" -- Have packer manage itself
-    use "nvim-lua/popup.nvim" -- An implementation of the Popup API from vim in Neovim
-    use "nvim-lua/plenary.nvim" -- Useful lua functions used ny lots of plugins
+    use "wbthomason/packer.nvim"
+    use "nvim-lua/popup.nvim"
+    use "nvim-lua/plenary.nvim"
     use 'folke/tokyonight.nvim'
     use {
         'nvim-telescope/telescope.nvim',
@@ -51,7 +51,6 @@ return packer.startup(function(use)
     }
     use {
         'lewis6991/gitsigns.nvim',
-        -- tag = 'release' -- To use the latest release
     }
     use {
         'akinsho/bufferline.nvim',
@@ -59,9 +58,6 @@ return packer.startup(function(use)
     }
     use {
         'numToStr/Comment.nvim',
-        config = function()
-            require('Comment').setup()
-        end
     }
     use {
         "nvim-treesitter/nvim-treesitter",
