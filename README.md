@@ -1,5 +1,7 @@
 # Neovim (Lua Setup)
 
+![logo](/assets/nvim+lua.webp)
+
 ## ToDo
 - [ ] Splash Screen
 - [ ] Language Server
@@ -34,7 +36,7 @@ npm i -g neovim
 ```
 
 ## ➡️ Used Plugins
-![Neovim Logo](/assets/plugin-code.png)
+![plugins.lua screenshot](/assets/plugin-code.png)
 - wbthomason/packer.nvim
 - nvim-lua/popup.nvim
 - nvim-lua/plenary.nvim
