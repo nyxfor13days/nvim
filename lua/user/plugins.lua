@@ -68,6 +68,7 @@ return packer.startup(function(use)
     use "kyazdani42/nvim-web-devicons"
     use 'nvim-lualine/lualine.nvim'
     use "akinsho/toggleterm.nvim"
+    use "lukas-reineke/indent-blankline.nvim"
 
     -- Automatically set up your configuration after cloning packer.nvim
     -- Put this at the end after all plugins
