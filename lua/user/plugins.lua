@@ -71,6 +71,7 @@ return packer.startup(function(use)
     use "lukas-reineke/indent-blankline.nvim"
     use "tribela/vim-transparent"
     use "windwp/nvim-autopairs"
+    use {"github/copilot.vim", event = "InsertEnter"}
 
     -- Automatically set up your configuration after cloning packer.nvim
     -- Put this at the end after all plugins
